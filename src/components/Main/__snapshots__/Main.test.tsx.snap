@@ -3,7 +3,7 @@
 exports[`<Main /> should render correctly 1`] = `
 <main>
   <h1>
-    React Avançado
+    boilerplate
   </h1>
 </main>
 `;
