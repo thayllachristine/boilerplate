@@ -1,9 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render correctly 1`] = `
-<main>
-  <h1>
+<main
+  class="Mainstyles__Wrapper-sc-1cgm8c8-0 hLwfNi"
+>
+  <h1
+    class="Mainstyles__Title-sc-1cgm8c8-1 cKbNDt"
+  >
     boilerplate
   </h1>
+  <h2
+    class="Mainstyles__Subtitle-sc-1cgm8c8-2 cptyqr"
+    data-testid="subtitle"
+  >
+    A simple project starter to work with React, NextJS, TypeScript and Styled Components
+  </h2>
+  <img
+    alt="animation of a star rotating 360 degrees"
+    class="Mainstyles__Image-sc-1cgm8c8-3 hMtUPO"
+    src="/images/star.svg"
+  />
 </main>
 `;
