@@ -1,9 +1,7 @@
-import Head from "next/head";
+import Main from 'components/Main';
 
-export default function Home() {
-  return (
-    <Head>
-      <title></title>
-    </Head>
-  );
-}
+const Home = () => {
+  return <Main />;
+};
+
+export default Home;
