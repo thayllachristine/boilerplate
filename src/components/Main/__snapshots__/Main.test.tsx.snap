@@ -1,23 +1,64 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render correctly 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #333333;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 3rem;
+  width: 100%;
+}
+
+.c1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.c2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.c3 {
+  -webkit-animation: eoUyJr 10s linear infinite;
+  animation: eoUyJr 10s linear infinite;
+  height: min(30rem,100%);
+  width: min(30rem,100%);
+}
+
 <main
-  class="Mainstyles__Wrapper-sc-1cgm8c8-0 hLwfNi"
+  class="c0"
 >
   <h1
-    class="Mainstyles__Title-sc-1cgm8c8-1 cKbNDt"
+    class="c1"
   >
     boilerplate
   </h1>
   <h2
-    class="Mainstyles__Subtitle-sc-1cgm8c8-2 cptyqr"
+    class="c2"
     data-testid="subtitle"
   >
     A simple project starter to work with React, NextJS, TypeScript and Styled Components
   </h2>
   <img
     alt="animation of a star rotating 360 degrees"
-    class="Mainstyles__Image-sc-1cgm8c8-3 hMtUPO"
+    class="c3"
     src="/images/star.svg"
   />
 </main>
